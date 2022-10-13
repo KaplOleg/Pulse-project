@@ -1,0 +1,53 @@
+.footer
+    position: relative
+    height: 630px
+    &_info
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        width: 460px
+        height: 270px
+        padding: 50px 53px 56px 53px
+        background-color: $main-color
+    &_addr
+        display: block
+
+        font-weight: 500
+        font-size: 20px
+        line-height: 20px
+        text-align: center
+        color: #FFFFFF
+    &_tel
+        display: block
+        font-weight: 700
+        font-size: 20px
+        line-height: 20px
+        text-align: center
+        color: #FFFFFF
+        margin-top: 36px
+        text-decoration: none
+        transition: 0.5s all
+        &:hover
+            color: #fed8d8
+    &_social
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 36px
+        &_item
+            width: 53px
+            height: 52px
+            border: 2px solid #FFFFFF
+            border-radius: 100%
+            margin: 0 27px
+            transition: 0.5s all
+            padding: 12px
+            img
+                width: 24px
+                height: 24px
+                display: block
+            &:hover
+                width: 49px
+                height: 49px
+                padding: 11px
